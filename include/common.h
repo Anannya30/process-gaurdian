@@ -1,0 +1,10 @@
+#ifndef COMMON_H
+#define COMMON_H
+
+#define MAX_PROCESSES 4096
+#define MAX_EVENTS 256
+#define MAX_PROCESS_NAME 256
+#define MAX_EVENT_TEXT 256
+#define DEFAULT_SAMPLE_INTERVAL_MS 1000
+
+#endif

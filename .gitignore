@@ -1,0 +1,30 @@
+# Build products
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+process_guardian
+
+# GCC/Make generated files
+*.d
+*.dep
+*.gcda
+*.gcno
+*.gcov
+core
+core.*
+
+# Logs and runtime files
+logs/*.csv
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
