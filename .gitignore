@@ -6,6 +6,9 @@
 *.dylib
 *.exe
 process_guardian
+test_anomaly
+test_controller
+test_dashboard
 
 # GCC/Make generated files
 *.d
