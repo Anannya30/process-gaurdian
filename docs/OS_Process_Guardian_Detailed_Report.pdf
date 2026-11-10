@@ -1,0 +1,253 @@
+%PDF-1.4
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type/Pages/Kids[4 0 R 6 0 R 8 0 R]/Count 3>>
+endobj
+3 0 obj
+<</Font<</F1 <</Type/Font/Subtype/Type1/BaseFont/Helvetica>>/F2 <</Type/Font/Subtype/Type1/BaseFont/Helvetica-Bold>>/F3 <</Type/Font/Subtype/Type1/BaseFont/Courier>>/F4 <</Type/Font/Subtype/Type1/BaseFont/Courier-Bold>>>>>>
+endobj
+4 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources 3 0 R/Contents 5 0 R>>
+endobj
+5 0 obj
+<</Length 7426>>stream
+0.080 0.180 0.360 rg 45.00 682.00 522.00 60.00 re f
+1.000 1.000 1.000 rg BT /F2 18 Tf 60.00 718.00 Td (OS PROCESS GUARDIAN) Tj ET
+0.850 0.900 0.980 rg BT /F1 11 Tf 60.00 698.00 Td (Technical Architecture, Implementation Details, Test Results & Presentation Context) Tj ET
+0.940 0.960 0.990 rg 0.200 0.450 0.750 RG 45.00 594.00 522.00 68.00 re B
+0.200 0.450 0.750 rg 45.00 594.00 4.00 68.00 re f
+BT /F2 9.5 Tf 57.00 648.00 Td (PROJECT METADATA & ARTIFACT INFORMATION) Tj ET
+0.200 0.200 0.200 rg BT /F1 8.5 Tf 57.00 636.00 Td (Language & Platform: C11 \(POSIX.1-2008\) on Linux \(Ubuntu on WSL / Native Linux\)) Tj ET
+0.200 0.200 0.200 rg BT /F1 8.5 Tf 57.00 624.00 Td (Build System: GNU Make + GCC \(-std=c11 -Wall -Wextra -Wpedantic\) | UI: ncurses) Tj ET
+0.200 0.200 0.200 rg BT /F1 8.5 Tf 57.00 612.00 Td (Repository State: Clean, integrated, fully synchronized with GitHub origin/main) Tj ET
+0.200 0.200 0.200 rg BT /F1 8.5 Tf 57.00 600.00 Td (Authors: Anannya Devale \(Member 1\), Tanvi Modi \(Member 2\), Yukta Mahajan \(Member 3\)) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 576.00 Td (1. Project Purpose & Executive Overview) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 572.00 m 567.00 572.00 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 560.00 Td (OS Process Guardian is a high-performance, modular user-space process monitoring and control system) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 547.50 Td (implemented in C11 for Linux environments. The program directly interfaces with the Linux /proc) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 535.00 Td (pseudo-filesystem to extract real-time process statistics, build parent-child ancestry trees, track) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 522.50 Td (lifecycle state changes, detect persistent resource consumption anomalies, optionally apply priority) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 510.00 Td (de-escalation via Linux nice levels, and present an interactive ncurses terminal dashboard with an) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 497.50 Td (append-only CSV audit log.) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 471.00 Td (2. Team Member Ownership & Architecture Matrix) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 467.00 m 567.00 467.00 l S
+0.120 0.240 0.450 rg 45.00 437.00 522.00 18.00 re f
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 50.00 442.00 Td (Member) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 120.00 442.00 Td (Module Scope) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 230.00 442.00 Td (Key Public APIs) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 400.00 442.00 Td (Primary Files Owned) Tj ET
+0.960 0.970 0.990 rg 45.00 421.00 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 421.00 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 425.00 Td (Member 1
+\(Anannya\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 120.00 425.00 Td (Discovery & Metrics) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 230.00 425.00 Td (proc_reader_read_process\(\)
+process_manager_get_all\(\)
+resource_monitor_update\(\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 400.00 425.00 Td (proc_reader.c, process_manager.c,
+resource_monitor.c, test_*.c, cpu_hog.c) Tj ET
+0.850 0.880 0.920 RG 45.00 405.00 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 409.00 Td (Member 2
+\(Tanvi\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 120.00 409.00 Td (Tree, State & Control) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 230.00 409.00 Td (process_tree_build\(\)
+state_tracker_find_changes\(\)
+process_control_*
+logger_*) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 400.00 409.00 Td (process_tree.c, state_tracker.c,
+process_control.c, priority_manager.c,
+logger.c, child_tree.c, sleep_test.c) Tj ET
+0.960 0.970 0.990 rg 45.00 389.00 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 389.00 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 393.00 Td (Member 3
+\(Yukta\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 120.00 393.00 Td (Anomalies, Dashboard & Main) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 230.00 393.00 Td (anomaly_detector_init/update\(\)
+controller_handle_anomaly\(\)
+dashboard_init/render/input\(\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 400.00 393.00 Td (anomaly_detector.c, controller.c,
+dashboard.c, main.c, test_*.c) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 369.00 Td (3. Core Technical Mechanics & Implementation Details) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 365.00 m 567.00 365.00 l S
+0.150 0.350 0.600 rg BT /F2 11 Tf 45.00 347.00 Td (3.1 Safe /proc/[pid]/stat Parsing \(Member 1\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 333.00 Td (Linux process names in /proc/[pid]/stat are enclosed in parentheses and may contain spaces or embedded) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 320.50 Td (parentheses \(e.g. '\(Web Content\)'\). Standard scanf or strtok approaches fail catastrophically. The) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 308.00 Td (Guardian solves this by locating the first '\(' with strchr\(\) and the last '\)' with strrchr\(\), safely) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 295.50 Td (copying the command name and parsing subsequent state, ppid, user ticks, and kernel ticks from the) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 283.00 Td (remainder of the line.) Tj ET
+0.150 0.350 0.600 rg BT /F2 11 Tf 45.00 260.50 Td (3.2 CPU Utilization Calculation \(Member 1\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 246.50 Td (CPU utilization is calculated across consecutive sampling snapshots using the exact formula:) Tj ET
+0.950 0.960 0.970 rg 0.780 0.820 0.860 RG 45.00 183.00 522.00 47.00 re B
+0.100 0.150 0.250 rg BT /F3 8.0 Tf 55.00 218.00 Td (ticks_per_sec = sysconf\(_SC_CLK_TCK\);) Tj ET
+0.100 0.150 0.250 rg BT /F3 8.0 Tf 55.00 207.00 Td (delta_ticks   = current.total_cpu_ticks - previous.total_cpu_ticks;) Tj ET
+0.100 0.150 0.250 rg BT /F3 8.0 Tf 55.00 196.00 Td (cpu_usage_pct = \(\(delta_ticks / \(double\)ticks_per_sec\) / elapsed_seconds\) * 100.0;) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 175.00 Td (The calculated value reflects the percentage of one logical CPU core \(0.0% to 100.0%+\), matching standard) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 162.50 Td (top behavior without requiring system-wide tick normalization or multi-core division.) Tj ET
+0.150 0.350 0.600 rg BT /F2 11 Tf 45.00 140.00 Td (3.3 Anomaly Detection & Active Suppression \(Member 3\)) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 126.00 Td (To avoid alert fatigue, the anomaly detector enforces a strict persistence and suppression contract:) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 109.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 109.50 Td (Threshold Criteria: CPU > 80.0% of a core, or Memory growth >= 10,240 KiB per sample.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 95.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 95.50 Td (Persistence Rule: Requires exactly 3 consecutive samples exceeding threshold before confirming.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 81.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 81.50 Td (Active Suppression: Emits exactly ONE event upon confirmation; suppresses subsequent alarms while condition) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 69.50 Td (remains continuously active.) Tj ET
+BT /F1 8 Tf 45 30 Td (OS Process Guardian — Final Implementation & Validation Report) Tj ET
+BT /F1 8 Tf 517.00 30 Td (Page 1 of 3) Tj ET
+0.5 w 0.7 0.7 0.7 RG 45 42 m 567.00 42 l S
+endstream
+endobj
+6 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources 3 0 R/Contents 7 0 R>>
+endobj
+7 0 obj
+<</Length 10338>>stream
+0.400 0.400 0.400 rg BT /F1 9 Tf 45.00 757.00 Td (OS Process Guardian — Architecture & Technical Report) Tj ET
+0.50 w 45.00 754.00 m 567.00 754.00 l S
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 742.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 742.00 Td (State Reset & Recovery: When usage drops below threshold, counters and active flags reset, enabling) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 730.00 Td (re-triggering upon recurrence.) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 706.00 Td (4. Verification & Automated Test Results) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 702.00 m 567.00 702.00 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 690.00 Td (The system has been thoroughly validated through unit test suites and controlled live workloads:) Tj ET
+0.120 0.240 0.450 rg 45.00 655.50 522.00 18.00 re f
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 50.00 660.50 Td (Test Suite / Target) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 160.00 660.50 Td (Module Validated) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 260.00 660.50 Td (Key Test Conditions) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.5 Tf 500.00 660.50 Td (Result) Tj ET
+0.960 0.970 0.990 rg 45.00 639.50 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 639.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 643.50 Td (test_anomaly_detector) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 643.50 Td (Anomaly Engine) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 643.50 Td (43 assertions: thresholds, persistence, suppression, recovery, cleanup) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 643.50 Td (PASS \(43/43\)) Tj ET
+0.850 0.880 0.920 RG 45.00 623.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 627.50 Td (test_process_manager) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 627.50 Td (Discovery & Enumeration) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 627.50 Td (Self-PID read, PPID validity, /proc traversal, duplicate checks, exited reaps) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 627.50 Td (PASS) Tj ET
+0.960 0.970 0.990 rg 45.00 607.50 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 607.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 611.50 Td (test_resource_monitor) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 611.50 Td (CPU Calculator) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 611.50 Td (Delta ticks, clock rate conversion, new PID zeroing, monotonic ticks) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 611.50 Td (PASS) Tj ET
+0.850 0.880 0.920 RG 45.00 591.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 595.50 Td (test_process_tree) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 595.50 Td (Hierarchy Builder) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 595.50 Td (Multi-tier parent resolution, orphan handling, cycle protection) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 595.50 Td (PASS) Tj ET
+0.960 0.970 0.990 rg 45.00 575.50 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 575.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 579.50 Td (test_state_tracker) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 579.50 Td (State Engine) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 579.50 Td (R->S transitions, exit detection \(exited=1\), unmutated arrays) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 579.50 Td (PASS) Tj ET
+0.850 0.880 0.920 RG 45.00 559.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 563.50 Td (test_process_control) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 563.50 Td (Signal Dispatcher) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 563.50 Td (SIGSTOP pause, SIGCONT resume, SIGTERM termination) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 563.50 Td (PASS) Tj ET
+0.960 0.970 0.990 rg 45.00 543.50 522.00 16.00 re f
+0.850 0.880 0.920 RG 45.00 543.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 547.50 Td (test_priority_manager) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 547.50 Td (Priority Controller) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 547.50 Td (getpriority/setpriority bounds [-20, 19], errno validation) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 547.50 Td (PASS) Tj ET
+0.850 0.880 0.920 RG 45.00 527.50 522.00 16.00 re S
+0.150 0.150 0.150 rg BT /F2 8.0 Tf 50.00 531.50 Td (test_logger) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 160.00 531.50 Td (CSV Event Log) Tj ET
+0.150 0.150 0.150 rg BT /F1 8.0 Tf 260.00 531.50 Td (RFC-4180 escaping, header generation, flush verification) Tj ET
+0.150 0.150 0.150 rg 0.050 0.500 0.150 rg BT /F2 8.0 Tf 500.00 531.50 Td (PASS) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 507.50 Td (5. Live Demonstration & Verification Walkthrough) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 503.50 m 567.00 503.50 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 491.50 Td (Live system integration was tested using the CPU hog workload generator \(tests/cpu_hog.c\):) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 475.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 475.00 Td (1. Workload Startup: Spawned ./tests/cpu_hog & which initiated a pure CPU calculation loop \(PID 14523\).) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 461.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 461.00 Td (2. Detection & Alerting: Launched ./process_guardian. Within 3 seconds \(3 consecutive samples at ~100% CPU\),) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 449.00 Td (the anomaly engine triggered.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 435.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 435.00 Td (3. Visual Indicator: The ncurses dashboard immediately rendered a bright RED alert banner: 'ALERTS:) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 423.00 Td ([CPU_HIGH] PID 14523 CPU 100.00% > 80.00% for 3 consecutive samples'.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 409.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 409.00 Td (4. Audit Log Verification: Event was appended to logs/process_guardian.csv with RFC-4180 quoting and precise) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 397.00 Td (epoch timestamp.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 383.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 383.00 Td (5. Active Suppression: On sample 4, the alert banner returned to 'No anomalies detected', confirming) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 371.00 Td (suppression of duplicate alarms.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 357.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 357.00 Td (6. Process Control: Operator pressed 's' to pause the process \(CPU dropped to 0%, state flipped to 'T'\).) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 345.00 Td (Operator pressed 'c' to resume. Upon 3 seconds of resumed load, the anomaly fired again, proving condition) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 333.00 Td (recovery.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 319.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 319.00 Td (7. Safe Termination: Operator pressed 'k' and confirmed with 'y'. Process was delivered SIGTERM, reaped) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 307.00 Td (cleanly, and removed from display.) Tj ET
+0.100 0.220 0.420 rg BT /F2 13 Tf 45.00 283.00 Td (6. Presentation & Report Structure \(Context for Next Agent\)) Tj ET
+0.100 0.220 0.420 RG 1.20 w 45.00 279.00 m 567.00 279.00 l S
+0.150 0.150 0.150 rg BT /F1 9.5 Tf 45.00 267.00 Td (The following 10-slide structure is recommended for the final presentation and executive project report:) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 250.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 250.50 Td (Slide 1 — Title & Overview: Project identity, core objectives, non-invasive user-space architecture.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 236.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 236.50 Td (Slide 2 — Architectural Pipeline: Data flow from /proc -> Discovery -> Metrics -> Hierarchy -> Anomalies ->) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 224.50 Td (Controller -> UI/Logs.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 210.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 210.50 Td (Slide 3 — Process Discovery \(M1\): Safe /proc/[pid]/stat parsing, handling spaces/parentheses in command) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 198.50 Td (names, VmRSS extraction.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 184.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 184.50 Td (Slide 4 — Resource Monitoring \(M1\): Single-core normalized CPU utilization formula using CLK_TCK and elapsed) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 172.50 Td (monotonic time.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 158.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 158.50 Td (Slide 5 — Process Tree & State Tracking \(M2\): Ancestry reconstruction, cycle prevention, runtime state) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 146.50 Td (transitions, process exit detection.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 132.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 132.50 Td (Slide 6 — Control, Nice Priority & Audit Logs \(M2\): POSIX signals \(SIGSTOP/SIGCONT/SIGTERM\), nice priority) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 120.50 Td (bounds [-20, 19], RFC-4180 CSV logs.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 106.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 106.50 Td (Slide 7 — Anomaly Detection & Suppression \(M3\): 3-sample persistence validation, active suppression of) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 94.50 Td (continuous violations, condition reset.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 80.50 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 80.50 Td (Slide 8 — ncurses Interactive Dashboard \(M3\): Full-screen keyboard UI, view toggles \(tree/log\), interactive) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 68.50 Td (termination confirmation prompt.) Tj ET
+BT /F1 8 Tf 45 30 Td (OS Process Guardian — Final Implementation & Validation Report) Tj ET
+BT /F1 8 Tf 517.00 30 Td (Page 2 of 3) Tj ET
+0.5 w 0.7 0.7 0.7 RG 45 42 m 567.00 42 l S
+endstream
+endobj
+8 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources 3 0 R/Contents 9 0 R>>
+endobj
+9 0 obj
+<</Length 990>>stream
+0.400 0.400 0.400 rg BT /F1 9 Tf 45.00 757.00 Td (OS Process Guardian — Architecture & Technical Report) Tj ET
+0.50 w 45.00 754.00 m 567.00 754.00 l S
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 742.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 742.00 Td (Slide 9 — Validation & Live Test Results: Summary of 8 passing test suites, 43/43 unit tests passed, live) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 730.00 Td (cpu_hog anomaly detection demo.) Tj ET
+0.150 0.350 0.600 rg BT /F2 10.0 Tf 48.00 716.00 Td (•) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 716.00 Td (Slide 10 — Engineering Highlights & Conclusion: Deterministic memory footprint, zero-heap runtime monitoring) Tj ET
+0.150 0.150 0.150 rg BT /F1 9.0 Tf 59.00 704.00 Td (loop, robust Linux systems programming.) Tj ET
+BT /F1 8 Tf 45 30 Td (OS Process Guardian — Final Implementation & Validation Report) Tj ET
+BT /F1 8 Tf 517.00 30 Td (Page 3 of 3) Tj ET
+0.5 w 0.7 0.7 0.7 RG 45 42 m 567.00 42 l S
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000054 00000 n 
+0000000117 00000 n 
+0000000356 00000 n 
+0000000452 00000 n 
+0000007926 00000 n 
+0000008022 00000 n 
+0000018409 00000 n 
+0000018505 00000 n 
+trailer
+<</Size 10/Root 1 0 R>>
+startxref
+19542
+%%EOF
