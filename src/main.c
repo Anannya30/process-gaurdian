@@ -1,3 +1,5 @@
+#define _POSIX_C_SOURCE 200809L
+
 /*
  * src/main.c
  * Member 3 -- Program Entry Point and Integration Layer

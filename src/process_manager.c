@@ -3,6 +3,7 @@
 #include <dirent.h>
 #include <ctype.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int process_manager_get_all(ProcessInfo processes[], int max_count) {
